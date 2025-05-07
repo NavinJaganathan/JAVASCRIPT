@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="collection.js" defer></script>
+</head>
+
+<body>
+    <!-- navebar -->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+    </div>
+    <!-- product -->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20240621/AyxU/667494df6f60443f3165a4b7/-473Wx593H-700102382-white-MODEL.jpg" alt="">
+                <p>White Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://m.media-amazon.com/images/I/61PgbwTHmRL._AC_UY1100_.jpg" alt="">
+                <p> Black Shirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://www.urbanofashion.com/cdn/shop/files/mxjean-004-lblue-1.png?v=1727181955" alt="">
+                <p>Blue Jeen</p>
+            </div>
+            <div class="products-box">
+                <img src="https://m.media-amazon.com/images/I/71CKw9gnkwL._AC_UY1100_.jpg" alt="">
+                <p>Black Jeen</p>
+            </div>
+            <div class="products-box">
+                <img src="https://i.pinimg.com/736x/5c/13/96/5c13962ffd96240ef22e4bbedf1108bd.jpg" alt="">
+                <p>T-Shirts</p>
+            </div>
+            <div class="products-box">
+                <img src="https://cdn.shopclues.com/images1/thumbnails/103639/320/320/148284442-103639700-1573795091.jpg" alt="">
+                <p>Hoodie </p>
+            </div>
+            <div class="products-box">
+                <img src="https://images.meesho.com/images/products/423722639/8cjxh_512.webp" alt="">
+                <p>Women A-line Yellow</p>
+            </div>
+            <div class="products-box">
+                <img src="https://media.licdn.com/dms/image/v2/D4D12AQF5v4ZdDI2r7Q/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1710172686798?e=2147483647&v=beta&t=HnFnub3HnuIYl0v7Krd23sw-mU-b6g2vvHdrjuui7G0" alt="">
+                <p>Leather jackets</p>
+            </div>
+            <div class="products-box">
+                <img src="https://images.meesho.com/images/products/373332903/yer7t_512.webp" alt="">
+                <p>Retro</p>
+            </div>
+            <div class="products-box">
+                <img src="https://www.thekoreanfashion.com/cdn/shop/files/img_from_stg_7264d08a-1834-4e67-9779-a7c73d3ea954.webp?v=1739193427&width=720" alt="">
+                <p>Korean Fashion</p>
+            </div>
+            <div class="products-box">
+                <img src="https://www.jiomart.com/images/product/original/rvmbg4zfud/urbano-fashion-men-s-black-cotton-solid-hooded-neck-sweatshirt-product-images-rvmbg4zfud-0-202310140738.jpg?im=Resize=(1000,1000)" alt="">
+                <p>SweatShirt</p>
+            </div>
+            <div class="products-box">
+                <img src="https://images.bewakoof.com/t320/men-s-black-batman-outline-logo-graphic-printed-oversized-t-shirt-519159-1734686072-1.jpg" alt="">
+                <p>Drop shoulder T-Shirt</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext"> Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, assumenda! Nisi veritatis fuga quas!
+                    Eos praesentium nostrum consequatur blanditiis, natus fugiat nemo quod saepe excepturi qui nulla,
+                    laudantium, laborum quos?</p>
+                <div class="footer-icone-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+        </div>
+        <p>@2025 Nostra.com</p>
+    </div>
+
+</body>
+
+</html>
